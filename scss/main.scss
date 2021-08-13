@@ -1,7 +1,6 @@
-$background-color: red;
-$text-color: blue;
+@use 'abstracts/colors';
 
 .check {
-    background: $background-color;
-    color: $text-color;
+    background: colors.$background-color;
+    color: colors.$text-color;
 }
